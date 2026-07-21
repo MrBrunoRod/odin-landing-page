@@ -2,7 +2,7 @@
 
 body {
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 18px;
     color: white;
     background-color: #1F2937;
     /* background-color: white; */
@@ -15,6 +15,7 @@ body {
     padding-left: 48px;
     padding-right: 48px;
 }
+
 
 /* This is the header */
 .header {
@@ -72,12 +73,14 @@ a {
     color: #F9FAF8;
 }
 
-.text {
+.titleText {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 10px;
 }
 
 .imageSect1 {
+    font-size: 36px;
     width: auto;
     height: 100%;
     display: flex;
@@ -103,8 +106,57 @@ a {
 /* This is section 2 */
 
 .section2 {
+    background-color: #F9FAF8;
+    color: #1F2937;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
+}
+
+.sectionHeader {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.section2Content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry.text {
+    color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+}
+
+.entry {
+    max-width: 150px;
+}
+
+.entry .text {
+    padding-top: 6px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.entry img {
+    width: 150px;
+    height: 150px;
+    font-size: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #cdd7eb7a;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #3882F6;
 }
